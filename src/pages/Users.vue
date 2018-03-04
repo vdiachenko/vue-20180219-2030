@@ -61,9 +61,11 @@
 <script>
 import DataTable from '@/components/DataTable.vue'
 
+const PORT = process.env.PORT || 9000
+
 export default {
     data: () => ({
-        url: `${location.protocol}//${location.hostname}:9000/users`
+        url: `${location.protocol}//${location.hostname}:${PORT}/users`
     }),
 
     components: { DataTable }
