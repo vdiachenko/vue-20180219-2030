@@ -1,0 +1,191 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "isActive": false,
+            "balance": "$3,496.87",
+            "picture": "http://placehold.it/128x128",
+            "age": 24,
+            "accessLevel": "guest",
+            "firstName": "Gross",
+            "lastName": "Leonard",
+            "company": "ZOID",
+            "email": "gross.leonard@zoid.io",
+            "phone": "+7 (881) 537-3957",
+            "address": "923 Montgomery Place, Moquino, Mississippi, 2502",
+            "about":
+                "Ut incididunt laboris pariatur consequat eiusmod non velit esse. Ipsum cupidatat commodo sint ea nisi dolor proident ipsum dolore proident quis in est. Ex amet ullamco pariatur officia non consequat nisi dolore aute ipsum ipsum eiusmod nostrud quis. Consequat ad eu qui fugiat qui commodo aliqua id. Sint nostrud fugiat ex elit dolor sunt dolore excepteur mollit occaecat reprehenderit magna. Cillum in sunt non qui amet cupidatat laborum. Pariatur duis fugiat ut sit fugiat amet.",
+            "registered": "10.09.2016"
+        },
+        {
+            "id": 1,
+            "isActive": false,
+            "balance": "$1,414.24",
+            "picture": "http://placehold.it/128x128",
+            "age": 23,
+            "accessLevel": "admin",
+            "firstName": "Eileen",
+            "lastName": "Cantu",
+            "company": "ROBOID",
+            "email": "eileen.cantu@roboid.biz",
+            "phone": "+7 (944) 497-2914",
+            "address": "606 Himrod Street, Century, Alabama, 1968",
+            "about":
+                "Dolor minim nulla quis ullamco. Adipisicing velit elit aliqua occaecat sunt id velit sit veniam reprehenderit ullamco id adipisicing culpa. Ex nostrud consequat ex tempor aliquip ipsum pariatur sit qui labore ullamco incididunt. Laboris et reprehenderit ea dolore.",
+            "registered": "15.05.2015"
+        },
+        {
+            "id": 2,
+            "isActive": false,
+            "balance": "$1,459.52",
+            "picture": "http://placehold.it/128x128",
+            "age": 38,
+            "accessLevel": "user",
+            "firstName": "Skinner",
+            "lastName": "Cabrera",
+            "company": "RADIANTIX",
+            "email": "skinner.cabrera@radiantix.info",
+            "phone": "+7 (930) 416-2618",
+            "address": "640 Coleridge Street, Balm, South Dakota, 5493",
+            "about":
+                "Laboris occaecat adipisicing excepteur aliqua commodo officia. Non sunt esse labore ad labore non cillum dolore occaecat reprehenderit nulla officia elit. Est ex est deserunt dolor. Fugiat esse amet aliqua veniam sunt excepteur dolor nisi ex sit aute adipisicing fugiat. Occaecat ex laboris Lorem consectetur est tempor velit exercitation excepteur occaecat aliquip reprehenderit occaecat. Eiusmod ut enim nisi ad sit tempor aliqua reprehenderit.",
+            "registered": "03.04.2015"
+        },
+        {
+            "id": 3,
+            "isActive": false,
+            "balance": "$1,271.83",
+            "picture": "http://placehold.it/128x128",
+            "age": 35,
+            "accessLevel": "admin",
+            "firstName": "Amelia",
+            "lastName": "Hester",
+            "company": "JIMBIES",
+            "email": "amelia.hester@jimbies.net",
+            "phone": "+7 (956) 546-3331",
+            "address": "385 Arlington Place, Winchester, Vermont, 5730",
+            "about":
+                "Ut velit eu eiusmod culpa laborum ex sit consectetur sunt velit. In officia Lorem cillum nostrud adipisicing. Non ex est eiusmod et aute. Adipisicing ut in pariatur et laboris tempor veniam in in velit officia. Do officia pariatur quis velit laboris cillum. Et adipisicing deserunt enim tempor quis enim tempor. Nisi fugiat excepteur qui quis reprehenderit cupidatat officia ipsum excepteur et.",
+            "registered": "25.06.2016"
+        },
+        {
+            "id": 4,
+            "isActive": false,
+            "balance": "$1,556.37",
+            "picture": "http://placehold.it/128x128",
+            "age": 39,
+            "accessLevel": "admin",
+            "firstName": "Pierce",
+            "lastName": "Gentry",
+            "company": "RODEOLOGY",
+            "email": "pierce.gentry@rodeology.biz",
+            "phone": "+7 (945) 435-3849",
+            "address": "763 Metropolitan Avenue, Alden, Oregon, 4739",
+            "about":
+                "Mollit enim duis laboris esse ut labore consequat enim anim. Nisi ad nisi sunt fugiat velit deserunt mollit tempor dolore. Aute consectetur excepteur aute Lorem quis tempor sunt aliqua. Esse ullamco enim cillum anim magna enim veniam aliqua eu ad ad anim.",
+            "registered": "23.05.2017"
+        },
+        {
+            "id": 5,
+            "isActive": true,
+            "balance": "$1,341.53",
+            "picture": "http://placehold.it/128x128",
+            "age": 25,
+            "accessLevel": "guest",
+            "firstName": "Glenda",
+            "lastName": "Bowers",
+            "company": "PHOLIO",
+            "email": "glenda.bowers@pholio.org",
+            "phone": "+7 (965) 497-2673",
+            "address": "887 Newel Street, Tuttle, Virginia, 8364",
+            "about":
+                "Ea irure nisi veniam enim elit sit occaecat proident minim quis nulla mollit cillum non. Pariatur fugiat et nisi incididunt nostrud adipisicing elit adipisicing fugiat dolor laboris eiusmod. Fugiat enim ipsum in reprehenderit. Deserunt labore ipsum officia proident do est nulla nulla. Excepteur sint qui et reprehenderit labore aliqua irure. Nulla anim culpa duis do eu nulla ullamco commodo.",
+            "registered": "21.01.2017"
+        },
+        {
+            "id": 6,
+            "isActive": true,
+            "balance": "$2,767.32",
+            "picture": "http://placehold.it/128x128",
+            "age": 37,
+            "accessLevel": "admin",
+            "firstName": "Angie",
+            "lastName": "Warner",
+            "company": "BOSTONIC",
+            "email": "angie.warner@bostonic.us",
+            "phone": "+7 (922) 530-2090",
+            "address": "653 Kossuth Place, Westboro, Nebraska, 2171",
+            "about":
+                "Proident Lorem nisi nulla voluptate adipisicing aute minim culpa irure est nostrud. Veniam cillum Lorem non culpa officia ullamco eu exercitation consequat est pariatur. Quis reprehenderit velit tempor ad. Reprehenderit do pariatur id occaecat officia anim occaecat.",
+            "registered": "10.03.2015"
+        },
+        {
+            "id": 7,
+            "isActive": false,
+            "balance": "$2,413.65",
+            "picture": "http://placehold.it/128x128",
+            "age": 28,
+            "accessLevel": "guest",
+            "firstName": "Penny",
+            "lastName": "Gonzales",
+            "company": "CENTREXIN",
+            "email": "penny.gonzales@centrexin.com",
+            "phone": "+7 (955) 528-2523",
+            "address": "548 Buffalo Avenue, Englevale, Federated States Of Micronesia, 1893",
+            "about":
+                "Et aute amet sunt cupidatat proident minim incididunt pariatur laboris incididunt et anim anim. Excepteur ullamco est sint excepteur sit est non culpa ad pariatur velit amet nostrud. Cillum nisi reprehenderit non exercitation non velit sunt culpa. Consectetur ad eu sit eiusmod do enim. Aliquip quis mollit velit cupidatat eiusmod in nulla nostrud veniam veniam sint occaecat velit quis. Ullamco qui nulla sint occaecat elit sit magna irure do anim.",
+            "registered": "03.11.2016"
+        },
+        {
+            "id": 8,
+            "isActive": false,
+            "balance": "$1,622.53",
+            "picture": "http://placehold.it/128x128",
+            "age": 37,
+            "accessLevel": "admin",
+            "firstName": "Maribel",
+            "lastName": "Riley",
+            "company": "ATOMICA",
+            "email": "maribel.riley@atomica.tv",
+            "phone": "+7 (993) 600-2597",
+            "address": "330 Village Road, Crisman, Idaho, 2271",
+            "about":
+                "Laboris dolor consequat magna id et aliqua do commodo ullamco sit culpa non sit. Do voluptate eu Lorem et enim ullamco. Pariatur velit pariatur deserunt ea et do ullamco nulla consectetur commodo ex.",
+            "registered": "22.07.2015"
+        },
+        {
+            "id": 9,
+            "isActive": false,
+            "balance": "$1,627.01",
+            "picture": "http://placehold.it/128x128",
+            "age": 22,
+            "accessLevel": "guest",
+            "firstName": "Fields",
+            "lastName": "Collins",
+            "company": "PIGZART",
+            "email": "fields.collins@pigzart.me",
+            "phone": "+7 (950) 587-3939",
+            "address": "574 Boerum Place, Saranap, Rhode Island, 2291",
+            "about":
+                "Duis pariatur labore ad velit id cupidatat nulla aute eu excepteur excepteur. Qui sit mollit esse enim pariatur ullamco veniam consectetur sint exercitation. Voluptate tempor amet excepteur ea quis tempor quis. Fugiat magna velit elit velit ipsum laboris nulla cupidatat culpa occaecat sint. Aute adipisicing laborum mollit pariatur commodo amet fugiat velit magna proident amet sunt aliquip Lorem. Ipsum enim sunt fugiat adipisicing nostrud et commodo quis aliquip reprehenderit ut.",
+            "registered": "06.05.2014"
+        },
+        {
+            "id": 10,
+            "isActive": false,
+            "balance": "$3,887.28",
+            "picture": "http://placehold.it/128x128",
+            "age": 25,
+            "accessLevel": "user",
+            "firstName": "Nixon",
+            "lastName": "Pena",
+            "company": "CALLFLEX",
+            "email": "nixon.pena@callflex.ca",
+            "phone": "+7 (932) 471-3390",
+            "address": "321 Vandervoort Place, Escondida, Colorado, 3875",
+            "about":
+                "Culpa irure enim officia aliqua ullamco cillum aute cillum id velit. Magna proident irure nulla amet sint nulla occaecat. Aute officia occaecat deserunt cupidatat exercitation cupidatat ut. Irure nisi incididunt est irure nisi commodo veniam tempor commodo eiusmod. Duis ex pariatur occaecat elit eiusmod minim cupidatat esse culpa tempor proident ut. Incididunt nisi laboris sunt ullamco eiusmod in duis dolor adipisicing magna consequat.",
+            "registered": "14.05.2014"
+        }
+    ]
+}
