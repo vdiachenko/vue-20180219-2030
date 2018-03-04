@@ -9,7 +9,7 @@
         "start": "npm run serve",
         "lint": "eslint --ext .js,.vue src",
         "build": "node build/build.js",
-        "serve": "node ./server"
+        "serve": "forever ./server"
     },
     "husky": {
         "hooks": {
@@ -25,6 +25,7 @@
     "dependencies": {
         "axios": "^0.18.0",
         "bulma": "^0.6.2",
+        "forever": "^0.15.3",
         "json-server": "^0.12.1",
         "vue": "^2.5.2",
         "vue-router": "^3.0.1"
