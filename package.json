@@ -8,7 +8,7 @@
         "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
         "start": "npm run dev",
         "lint": "eslint --ext .js,.vue src",
-        "build": "node build/build.js",
+        "build": "node build/build.js && npm run serve",
         "serve": "json-server --watch db.json --port 9000"
     },
     "husky": {
@@ -17,10 +17,7 @@
         }
     },
     "lint-staged": {
-        "./src/router/index.js": [
-            "eslint --fix",
-            "git add"
-        ]
+        "./src/router/index.js": ["eslint --fix", "git add"]
     },
     "dependencies": {
         "axios": "^0.18.0",
@@ -86,9 +83,5 @@
         "node": ">= 6.0.0",
         "npm": ">= 3.0.0"
     },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
-    ]
+    "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
