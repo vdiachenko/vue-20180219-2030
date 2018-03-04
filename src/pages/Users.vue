@@ -62,11 +62,9 @@
 import DataTable from '@/components/DataTable.vue'
 
 export default {
-    data() {
-        return {
-            url: 'http://localhost:9000/users/'
-        }
-    },
+    data: () => ({
+        url: `${location.protocol}//${location.hostname}:9000/users`
+    }),
 
     components: { DataTable }
 }
