@@ -64,8 +64,8 @@ import DataTable from '@/components/DataTable.vue'
 export default {
     data: () => ({
         url: `${location.protocol}//${location.hostname}${
-            process.env.NODE_ENV !== 'production' ? ':9000' : '/api'
-        }/users`
+            process.env.NODE_ENV !== 'production' ? ':9000' : ''
+        }/api/users`
     }),
 
     components: { DataTable }
