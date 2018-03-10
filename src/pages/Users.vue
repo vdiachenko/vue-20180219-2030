@@ -18,7 +18,7 @@
 
                 <template slot="row" slot-scope="props">
                     <td>
-                        {{ props.id }}
+                        <router-link :to="getUserUrl(props.id)" tag="a" exact>{{ props.id }}</router-link>
                     </td>
 
                     <td>
@@ -68,7 +68,13 @@ export default {
         }/api/users`
     }),
 
-    components: { DataTable }
+    components: { DataTable },
+
+    methods: {
+        getUserUrl(id) {
+            return `/edit/${id}`
+        }
+    }
 }
 </script>
 
