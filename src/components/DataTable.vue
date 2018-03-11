@@ -1,5 +1,7 @@
 <template>
     <div>
+        <row-picker v-model.number="rowsPerPage"></row-picker>
+
         <table class="table">
             <thead>
                 <slot name="head"></slot>
@@ -22,12 +24,13 @@ import axios from 'axios'
 export default {
     data: () => ({
         list: [],
-        rowsPerPage: 3,
+        rowsPerPage: 2,
         currentPage: 1
     }),
 
     components: {
-        pager: () => import('@/components/Pager.vue')
+        pager: () => import('@/components/Pager.vue'),
+        'row-picker': () => import('@/components/RowPicker.vue')
     },
 
     props: {
@@ -54,6 +57,12 @@ export default {
 
     mounted() {
         this.fetchData()
+    },
+
+    watch: {
+        rowsPerPage() {
+            this.currentPage = 1
+        }
     },
 
     methods: {
