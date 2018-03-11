@@ -59,8 +59,6 @@
 </template>
 
 <script>
-import DataTable from '@/components/DataTable.vue'
-
 export default {
     data: () => ({
         url: `${location.protocol}//${location.hostname}${
@@ -68,7 +66,9 @@ export default {
         }/api/users`
     }),
 
-    components: { DataTable },
+    components: {
+        'data-table': () => import('@/components/DataTable.vue')
+    },
 
     methods: {
         getUserUrl(id) {

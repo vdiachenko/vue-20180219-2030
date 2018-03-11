@@ -10,14 +10,15 @@
 
 <script>
 import axios from 'axios'
-import UserForm from '@/components/UserForm.vue'
 
 export default {
     data: () => ({
         user: {}
     }),
 
-    components: { UserForm },
+    components: {
+        'user-form': () => import('@/components/UserForm.vue')
+    },
 
     mounted() {
         this.fetchData()
