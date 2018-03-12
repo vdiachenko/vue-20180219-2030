@@ -16,4 +16,9 @@ export default {
 
 <style lang="less">
 @import '../node_modules/bulma/css/bulma.css';
+
+.title,
+.select {
+    margin-bottom: 15px;
+}
 </style>
