@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-image">
             <figure class="image is-4by3">
-                <img :src="user.picture" :alt="username">
+                <img :src="user.picture" :alt="formattedUsername">
             </figure>
         </div>
 
@@ -10,7 +10,7 @@
             <div class="media">
                 <div class="media-left">
                     <figure class="image is-48x48">
-                        <img :src="user.picture" :alt="username">
+                        <img :src="user.picture" :alt="formattedUsername">
                     </figure>
                 </div>
 
