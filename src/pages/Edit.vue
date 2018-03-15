@@ -1,7 +1,7 @@
 <template>
     <section class="section">
         <div class="container">
-            <h1 class="title">User Edit</h1>
+            <h1 class="title">Edit</h1>
         </div>
         
         <div class="tile is-ancestor">

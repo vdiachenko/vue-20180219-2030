@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-image">
             <figure class="image is-4by3">
-                <img :src="user.picture" :alt="formattedUsername">
+                <avatar-uploader v-model="user.picture"/>
             </figure>
         </div>
 
@@ -38,6 +38,10 @@ export default {
         inProgress: false
     }),
 
+    components: {
+        'avatar-uploader': () => import('@/components/AvatarUploader.vue')
+    },
+
     props: {
         user: {
             type: Object,
@@ -61,6 +65,8 @@ export default {
 }
 </script>
 
-<style lang="" scoped>
-
+<style lang="less" scoped>
+.image {
+    overflow: hidden;
+}
 </style>
