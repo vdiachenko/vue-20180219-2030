@@ -175,6 +175,23 @@
       "address": "321 Vandervoort Place, Escondida, Colorado, 3875",
       "about": "Culpa irure enim officia aliqua ullamco cillum aute cillum id velit. Magna proident irure nulla amet sint nulla occaecat. Aute officia occaecat deserunt cupidatat exercitation cupidatat ut. Irure nisi incididunt est irure nisi commodo veniam tempor commodo eiusmod. Duis ex pariatur occaecat elit eiusmod minim cupidatat esse culpa tempor proident ut. Incididunt nisi laboris sunt ullamco eiusmod in duis dolor adipisicing magna consequat.",
       "registered": "14.05.2014"
+    },
+    {
+      "id": 11,
+      "guid": "",
+      "isActive": "true",
+      "balance": "5555",
+      "picture": "https://i.imgur.com/mbIwPd5.jpg",
+      "age": "22",
+      "eyeColor": "",
+      "firstName": "Vlad",
+      "lastName": "Diachenko",
+      "company": "",
+      "email": "dev.vdiachenko@gmail.com",
+      "phone": "79881111111",
+      "address": "",
+      "about": "",
+      "registered": "2018-03-15T19:27:34.176Z"
     }
   ]
 }

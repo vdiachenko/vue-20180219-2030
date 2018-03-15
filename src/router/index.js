@@ -22,6 +22,12 @@ export default new Router({
             path: '/edit/:id',
             name: 'Edit',
             component: () => import('@/pages/Edit')
+        },
+
+        {
+            path: '/user/add',
+            name: 'UserAdd',
+            component: () => import('@/pages/UserAdd')
         }
     ]
 })

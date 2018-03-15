@@ -72,10 +72,7 @@
             </div>
         </div>
 
-        <div class="buttons">
-            <button type="submit" class="button is-success" :class="{ 'is-loading': inProgress }">Save</button>
-            <button type="button" class="button is-danger">Delete</button>
-        </div>
+        <slot name="buttons"/>
     </form>
 </template>
 
@@ -83,9 +80,7 @@
 import axios from 'axios'
 
 export default {
-    data: () => ({
-        inProgress: false
-    }),
+    data: () => ({}),
 
     props: {
         user: {
@@ -98,7 +93,6 @@ export default {
 
     methods: {
         onSubmit() {
-            this.inProgress = true
             this.$emit('submit', () => (this.inProgress = false))
         }
     }

@@ -1,7 +1,7 @@
 <template>
     <section class="section">
         <div class="container">
-            <h1 class="title">Edit</h1>
+            <h1 class="title">New user</h1>
         </div>
         
         <div class="tile is-ancestor">
@@ -13,8 +13,8 @@
                 <div class="tile is-child box">
                     <user-form :user="this.user" @submit="save">
                         <div class="buttons" slot="buttons">
-                            <button type="submit" class="button is-success" :class="{ 'is-loading': inProgress }">Save</button>
-                            <button type="button" class="button is-danger">Delete</button>
+                            <button type="submit" class="button is-success" :class="{ 'is-loading': inProgress }">Create</button>
+                            <button type="button" class="button is-danger" @click="reset">Reset</button>
                         </div>
                     </user-form>
                 </div>
@@ -26,9 +26,27 @@
 <script>
 import axios from 'axios'
 
+const defaultUser = {
+    id: null,
+    guid: '',
+    isActive: false,
+    balance: '',
+    picture: 'http://placehold.it/416x348',
+    age: 0,
+    eyeColor: '',
+    firstName: '',
+    lastName: '',
+    company: '',
+    email: '',
+    phone: '',
+    address: '',
+    about: '',
+    registered: new Date()
+}
+
 export default {
     data: () => ({
-        user: {},
+        user: defaultUser,
         inProgress: false
     }),
 
@@ -37,13 +55,9 @@ export default {
         'user-card': () => import('@/components/UserCard.vue')
     },
 
-    mounted() {
-        this.fetchData()
-    },
-
     computed: {
         url() {
-            return `${SERVICE_URL}/users/${this.$route.params.id}`
+            return `${SERVICE_URL}/users/`
         },
 
         hasData() {
@@ -61,10 +75,13 @@ export default {
         save() {
             this.inProgress = true
 
-            axios.patch(this.url, this.user).then(({ data }) => {
-                this.user = data
-                this.$router.push({ path: '/users' })
+            axios.post(this.url, this.user).then(({ data }) => {
+                this.$router.push({ path: '/edit/' + data.id })
             })
+        },
+
+        reset() {
+            this.user = defaultUser
         }
     }
 }

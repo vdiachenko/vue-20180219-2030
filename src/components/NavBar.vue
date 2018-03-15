@@ -3,6 +3,7 @@
         <div class="navbar-brand">
             <router-link to="/" tag="a" class="navbar-item" active-class="is-active" exact>Home</router-link>
             <router-link to="/users" tag="a" class="navbar-item" active-class="is-active">Users</router-link>
+            <router-link to="/user/add" tag="a" class="navbar-item" active-class="is-active">Add User</router-link>
             
             <div class="navbar-burger">
                 <span></span>
