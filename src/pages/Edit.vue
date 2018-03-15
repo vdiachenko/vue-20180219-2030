@@ -6,12 +6,12 @@
         
         <div class="tile is-ancestor">
             <div class="tile is-4 is-vertical is-parent">
-                <user-card :user="this.user" @submit="onSubmit"></user-card>
+                <user-card :user="this.user" @submit="save"></user-card>
             </div>
 
             <div class="tile is-parent">
                 <div class="tile is-child box">
-                    <user-form :user="this.user" @submit="onSubmit"></user-form>
+                    <user-form :user="this.user" @submit="save"></user-form>
                 </div>
             </div>
         </div>
@@ -52,11 +52,12 @@ export default {
             })
         },
 
-        onSubmit(cb) {
+        save(cb) {
             axios
                 .patch(this.url, this.user)
                 .then(({ data }) => {
                     this.user = data
+                    this.$router.push({ path: '/users' })
                 })
                 .then(cb)
         }

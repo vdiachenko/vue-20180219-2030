@@ -35,9 +35,9 @@
     {
       "id": 2,
       "isActive": false,
-      "balance": "$1,459.52",
+      "balance": "$1,459",
       "picture": "https://i.imgur.com/STlsMZH.jpg",
-      "age": "30",
+      "age": "21",
       "accessLevel": "user",
       "firstName": "Skinner",
       "lastName": "Cabrera",
